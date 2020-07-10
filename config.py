@@ -17,8 +17,8 @@ SQLALCHEMY_DATABASE_URI = "sqlite:///" + os.path.join(basedir, "app.db")
 # SQLALCHEMY_DATABASE_URI = 'mysql://myapp@localhost/myapp'
 # SQLALCHEMY_DATABASE_URI = 'postgresql://root:password@localhost/myapp'
 SQLALCHEMY_BINDS = {
-    'my_sql': 'mysql://root:Msqmsq666@129.28.161.243/huixuan',
-    'my_sql2': 'mysql://root:Msqmsq666@129.28.161.243/test'
+    'my_sql': 'mysql+pymysql://root:Msqmsq666@129.28.161.243/huixuan',
+    'my_sql2': 'mysql+pymysql://root:Msqmsq666@129.28.161.243/test'
 }
 
 # Flask-WTF flag for CSRF
