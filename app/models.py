@@ -5,6 +5,8 @@ from sqlalchemy import Table, Column, Integer, String, ForeignKey, Date, Float, 
 from sqlalchemy.orm import relationship
 from flask_appbuilder.models.decorators import renders
 from flask_appbuilder.models.sqla.filters import FilterStartsWith, FilterEqualFunction
+from mongoengine import Document
+from mongoengine import DateTimeField, StringField, ReferenceField, ListField, IntField, ObjectIdField
 
 
 # 学院
@@ -103,3 +105,35 @@ class User(Model):
 
     def __repr__(self):
         return self.user
+
+# 测试
+class Users(Document):
+    # _id = ObjectIdField(primary_key=True)
+    name_id = StringField(max_length=20, unique=True, required=True)
+    age = IntField(unique=True, required=True)
+    name = StringField(max_length=60, required=True, unique=True)
+    gender = StringField(max_length=60, required=True)
+
+    def __unicode__(self):
+        return self.name
+
+    def __repr__(self):
+        return self.name
+
+# 回旋测试脚本数据modeo
+class Test_Data(Document):
+    name = StringField(max_length=20, unique=True, required=True)
+    yid = StringField(max_length=50, required=True)
+    game_count = IntField(required=True)
+    is_test = IntField(required=True)
+    cpm = StringField(max_length=50, required=True)
+    version_name = StringField(max_length=60, required=True)
+    channel_name = StringField(max_length=60, required=True)
+    game_version = StringField(max_length=60, required=True)
+    device_id = StringField(max_length=60, required=True)
+
+    def __unicode__(self):
+        return self.name
+
+    def __repr__(self):
+        return self.name

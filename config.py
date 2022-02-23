@@ -20,7 +20,15 @@ SQLALCHEMY_BINDS = {
     'my_sql': 'mysql+pymysql://root:Msqmsq666@129.28.161.243/huixuan',
     'my_sql2': 'mysql+pymysql://root:Msqmsq666@129.28.161.243/test'
 }
-
+MONGODB_SETTINGS = [{
+    "db": "app_test",
+    # "username": "root",
+    "host": "101.43.185.228",
+    # "password": "Msqmsq666",
+    "maxPoolSize": 10,
+    "maxIdleTimeMS": 30000,
+    "port": 20017
+}]
 # Flask-WTF flag for CSRF
 CSRF_ENABLED = True
 
