@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e74cce6-e607-4c5e-8204-b8dab723ab3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/box.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/box.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../application" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.run">
@@ -118,7 +109,11 @@
       <workItem from="1619094971006" duration="1548000" />
       <workItem from="1619141426661" duration="55000" />
       <workItem from="1644991722268" duration="1271000" />
-      <workItem from="1645596187085" duration="5224000" />
+      <workItem from="1645596187085" duration="5432000" />
+      <workItem from="1645610298467" duration="1360000" />
+      <workItem from="1646220630634" duration="72000" />
+      <workItem from="1646220709016" duration="14000" />
+      <workItem from="1646220751064" duration="16000" />
     </task>
     <servers />
   </component>
@@ -146,6 +141,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="458" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1645017695185" />
+    <state x="-1459" y="164" key="SettingsEditor" timestamp="1645610423887">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1459" y="164" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1645610423887" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/box$run.coverage" NAME="run Coverage Results" MODIFIED="1644991957185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

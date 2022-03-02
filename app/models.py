@@ -131,6 +131,7 @@ class Test_Data(Document):
     channel_name = StringField(max_length=60, required=True)
     game_version = StringField(max_length=60, required=True)
     device_id = StringField(max_length=60, required=True)
+    finishNum = IntField()
 
     def __unicode__(self):
         return self.name

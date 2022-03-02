@@ -68,8 +68,9 @@ class UsersView(ModelView):
 
 class Test_DataView(ModelView):
     datamodel = MongoEngineInterface(Test_Data)
-    label_columns = {'name': '用户名', 'yid': 'yid', 'game_count': '运行次数', 'is_test':'0线上  1测试', 'cpm':'广告CPM', 'version_name': '安卓版本', 'channel_name': '应用渠道', 'game_version': '热更版本', 'device_id': '设备ID'}
-    list_columns = ['name', 'yid', 'game_count', 'is_test', 'cpm', 'version_name', 'channel_name', 'game_version', 'device_id']
+    label_columns = {'name': '用户名', 'yid': 'yid', 'game_count': '运行次数', 'is_test':'0线上  1测试', 'cpm':'广告CPM', 'version_name': '安卓版本',
+                     'channel_name': '应用渠道', 'game_version': '热更版本', 'device_id': '设备ID', 'finishNum': '当前答对题目数'}
+    list_columns = ['name', 'yid', 'game_count', 'is_test', 'cpm', 'version_name', 'channel_name', 'game_version', 'device_id', 'finishNum']
     related_views = [GerlView]
     chart_title = 'Grouped Birth contacts'
     chart_type = 'AreaChart'
